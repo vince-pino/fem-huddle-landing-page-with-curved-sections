@@ -7,7 +7,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         "open-sans": ["Open Sans", "sans-serif"],
       },
-      color: {
+      colors: {
         pink: "hsl(322,100%,66%)",
         "light-pink": "hsl(321,100%,78%)",
         "light-red": "hsl(0,100%,63%)",
