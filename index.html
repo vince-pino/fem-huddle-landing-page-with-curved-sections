@@ -1,196 +1,286 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/85f3ffcdf5.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="dist/output.css">
-  <link rel="stylesheet" href="logo.css">
-  
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/85f3ffcdf5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="logo.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body class="font-open-sans">
-  <header class="p-8 flex justify-between items-center">
-    <img class="w-28 h-full" src="images/logo.svg" alt="logo">
-    <button class="text-pink border border-pink rounded-full py-1 px-6 text-sm whitespace-nowrap">
-      Try it free
-    </button>
-  </header>
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
-  <main>
-    <section class="p-9 mb-20">
-      <h1 class="text-2xl text-center font-bold text-very-dark-cyan mb-6 font-poppins">
-        Build The Community Your Fans Will Love
-      </h1>
-      <p class="text-center text-very-dark-cyan text-sm font-semibold mb-10">
-        Huddle re-imagines the way we build communities. You have a voice, but so does 
-        your audience. Create connections with your users as you engage in genuine discussion. 
-      </p>
-      <button class="px-12 py-3 font-semibold bg-pink rounded-full text-white mb-20 block mx-auto">
-        Get Started For Free
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-open-sans">
+    <header class="flex items-center justify-between p-8 md:p-10 lg:p-20">
+      <img
+        class="h-full w-28 md:w-36 lg:w-56"
+        src="images/logo.svg"
+        alt="logo"
+      />
+      <button
+        class="whitespace-nowrap rounded-full border border-pink px-6 py-1 text-sm text-pink"
+      >
+        Try it free
       </button>
-      <img src="images/screen-mockups.svg" alt="screen mock up image">
-    </section>
+    </header>
 
-    <section class="flex flex-col items-center justify-center gap-20">
-      <div class="w-1/2 m-auto">
-        <img class="w-10" src="images/icon-communities.svg" alt="community icon">
-        <p class="text-[60px] font-bold text-very-dark-cyan">
-          1.4k+
+    <main>
+      <section class="mb-20 p-9">
+        <h1
+          class="mb-6 text-center font-poppins text-2xl font-bold text-very-dark-cyan md:text-3xl lg:text-4xl"
+        >
+          Build The Community Your Fans Will Love
+        </h1>
+        <p
+          class="mb-10 text-center text-sm font-semibold text-very-dark-cyan md:text-base lg:mx-auto lg:w-1/2"
+        >
+          Huddle re-imagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
         </p>
-        <p class="text-center text-gray-500 font-medium">
-          Communities Formed
-        </p>
-      </div>
-      <div class="w-1/2 m-auto">
-        <img class="w-10" src="images/icon-messages.svg" alt="message icon">
-        <p class="text-[60px] font-bold text-very-dark-cyan">
-          2.7m+
-        </p>
-        <p class="text-center text-gray-500 font-medium w-1/2 m-auto">
-          Messages Sent
-        </p>
-      </div>
-    </section>
+        <button
+          class="mx-auto mb-20 block rounded-full bg-pink px-12 py-3 font-semibold text-white shadow-lg lg:px-20 lg:py-5"
+        >
+          Get Started For Free
+        </button>
+        <img
+          class="lg:m-auto lg:w-4/5"
+          src="images/screen-mockups.svg"
+          alt="screen mock up image"
+        />
+      </section>
 
-    <section class="mb-40">
-      <img class="w-full" src="images/bg-section-top-mobile-1.svg" alt="">
-      <div class="bg-[#F6FBFF] py-20 px-8">
-        <img src="images/illustration-grow-together.svg" alt="two people standing together">
-      <div>
-        <h2 class="text-2xl font-bold font-poppins text-center text-very-dark-cyan mt-20">
-          Grow Together
-        </h2>
-        <p class="font-medium text-very-dark-cyan text-center mt-6">
-          Generate meaningful discussions with your audience and build a strong, loyal community. 
-          Think of the insightful conversations you miss out on with a feedback form. 
-        </p>
-      </div>
-      </div>
-      <img class="w-full" src="images/bg-section-bottom-mobile-1.svg" alt="">
-    </section>
+      <section
+        class="flex flex-col items-center justify-center gap-20 sm:mb-20 sm:flex-row sm:justify-center sm:gap-0"
+      >
+        <div class="m-auto w-max">
+          <img
+            class="w-10"
+            src="images/icon-communities.svg"
+            alt="community icon"
+          />
+          <p
+            class="text-[60px] font-bold text-very-dark-cyan sm:text-center lg:text-[80px]"
+          >
+            1.4k+
+          </p>
+          <p class="text-center font-medium text-gray-500 lg:text-xl">
+            Communities Formed
+          </p>
+        </div>
+        <div class="m-auto w-max">
+          <img class="w-10" src="images/icon-messages.svg" alt="message icon" />
+          <p class="text-[60px] font-bold text-very-dark-cyan lg:text-[80px]">
+            2.7m+
+          </p>
+          <p
+            class="m-auto w-1/2 text-center font-medium text-gray-500 sm:w-max lg:text-xl"
+          >
+            Messages Sent
+          </p>
+        </div>
+      </section>
 
-    <section class="mb-40 px-8">
-        <img src="images/illustration-flowing-conversation.svg" alt="group of people sitting together">
+      <section class="mb-40">
+        <div
+          class="h-40 w-full bg-[url('../images/bg-section-top-mobile-1.svg')] bg-cover bg-center bg-no-repeat md:bg-[url('../images/bg-section-top-desktop-1.svg')]"
+        ></div>
+        <div
+          class="bg-[#F6FBFF] px-8 py-20 lg:flex lg:flex-row-reverse lg:gap-20 lg:px-20"
+        >
+          <img
+            class="lg:w-1/2"
+            src="images/illustration-grow-together.svg"
+            alt="two people standing together"
+          />
+          <div>
+            <h2
+              class="mt-20 text-center font-poppins text-2xl font-bold text-very-dark-cyan md:text-3xl lg:text-left"
+            >
+              Grow Together
+            </h2>
+            <p
+              class="mt-6 text-center font-medium text-very-dark-cyan lg:text-left"
+            >
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+        </div>
+        <div
+          class="h-40 w-full bg-[url('../images/bg-section-bottom-mobile-1.svg')] bg-cover bg-center bg-no-repeat md:bg-[url('../images/bg-section-bottom-desktop-1.svg')]"
+        ></div>
+      </section>
+
+      <section class="mb-40 px-8 lg:flex lg:gap-20 lg:px-20">
+        <img class="lg:w-1/2"
+          src="images/illustration-flowing-conversation.svg"
+          alt="group of people sitting together"
+        />
         <div>
-          <h2 class="text-2xl font-bold font-poppins text-center text-very-dark-cyan mt-20">
+          <h2
+            class="mt-20 text-center font-poppins text-2xl lg:text-left font-bold text-very-dark-cyan md:text-3xl"
+          >
             Flowing Conversations
           </h2>
-          <p class="font-medium text-very-dark-cyan text-center mt-6">
-            You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-            just-in-time loading for a more natural flow.
+          <p class="mt-6 text-center lg:text-left font-medium text-very-dark-cyan">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
           </p>
         </div>
-    </section>
+      </section>
 
-    <section class="mb-20">
-      <img class="w-full" src="images/bg-section-top-mobile-2.svg" alt="">
-      <div class="bg-[#F6FBFF] py-20 px-8">
-        <img src="images/illustration-your-users.svg" alt="three people holding message icons">
-        <div>
-          <h2 class="text-2xl font-bold font-poppins text-center text-very-dark-cyan mt-20">
-            Your Users
-          </h2>
-          <p class="font-medium text-very-dark-cyan text-center mt-6">
-            It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-            once signed in to your app, your users can start chatting immediately.
+      <section class="mb-20">
+        <div
+          class="h-40 w-full bg-[url('../images/bg-section-top-mobile-2.svg')] bg-cover bg-center bg-no-repeat md:bg-[url('../images/bg-section-top-desktop-2.svg')]"
+        ></div>
+        <div class="bg-[#F6FBFF] px-8 py-20 lg:flex lg:flex-row-reverse lg:gap-20 lg:px-20">
+          <img class="lg:w-1/2"
+            src="images/illustration-your-users.svg"
+            alt="three people holding message icons"
+          />
+          <div>
+            <h2
+              class="mt-20 text-center font-poppins lg:text-left text-2xl font-bold text-very-dark-cyan md:text-3xl"
+            >
+              Your Users
+            </h2>
+            <p class="mt-6 text-center lg:text-left font-medium text-very-dark-cyan">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+        </div>
+        <div
+          class="h-40 w-full bg-[url('../images/bg-section-bottom-mobile-2.svg')] bg-cover bg-center bg-no-repeat md:bg-[url('../images/bg-section-bottom-desktop-2.svg')]"
+        ></div>
+      </section>
+
+      <section class="mb-80 lg:mb-20">
+        <h1
+          class="md:4xl text-center font-poppins text-3xl font-bold text-very-dark-cyan lg:text-4xl"
+        >
+          Ready To Build Your Community?
+        </h1>
+        <button
+          class="mx-auto mt-10 block rounded-full bg-pink px-12 py-3 lg:px-20 lg:py-5 shadow-lg font-semibold text-white"
+        >
+          Get Started For Free
+        </button>
+      </section>
+    </main>
+
+    <footer class="text-very-pale-blue">
+      <div
+        class="h-40 w-full bg-[url('../images/bg-footer-top-mobile.svg')] bg-cover bg-center bg-no-repeat md:bg-[url('../images/bg-footer-top-desktop.svg')]"
+      ></div>
+      <div class="-mt-1 bg-very-dark-cyan py-20 md:flex md:flex-row-reverse">
+        <section>
+          <div class="-mt-1 bg-very-dark-cyan px-8 pb-20 md:px-10 md:pr-20 md:pl-0">
+            <h2 class="mb-4 font-poppins text-2xl font-semibold uppercase">
+              Newsletter
+            </h2>
+            <p class="mb-6 md:w-4/5 md:text-sm">
+              To recieve tips on how to grow your community, sign up to our
+              weekly newsletter. We’ll never send you spam or pass on your email
+              address
+            </p>
+            <div class="flex flex-col items-end gap-4 lg:flex-row">
+              <input class="w-full rounded-lg p-3" type="email" />
+              <button
+                class="w-max rounded-lg bg-pink px-12 py-3 font-semibold text-white"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="px-8 md:px-10 md:pl-20 md:pr-0">
+          <figure class="mb-4">
+            <span class="icon-logo text-4xl"
+              ><span class="path1"></span><span class="path2"></span
+            ></span>
+          </figure>
+
+          <p class="mb-12 md:w-2/3 md:text-sm">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
           </p>
-        </div>
-      </div>
-      <img class="w-full" src="images/bg-section-bottom-mobile-2.svg" alt="">
-    </section>
 
-    <section class="mb-80">
-      <h1 class="text-3xl text-center font-bold font-poppins text-very-dark-cyan">
-        Ready To Build Your Community?
-      </h1>
-      <button class="bg-pink rounded-full text-white px-12 py-3 font-semibold mt-10 mx-auto block">
-        Get Started For Free
-      </button>
-    </section>
+          <div class="mb-12 flex flex-col gap-4 md:text-sm">
+            <div class="flex items-center gap-4">
+              <img src="images/icon-phone.svg" alt="" />
+              <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div class="flex items-center gap-4">
+              <img src="images/icon-email.svg" alt="" />
+              <p>example@huddle.com</p>
+            </div>
+          </div>
 
-  </main>
-  
-  
-  
-  <footer class= "text-white">
-    <img class="w-full" src="images/bg-footer-top-mobile.svg" alt="">
-    <div class="bg-very-dark-cyan py-20 -mt-1">
-       <section>
-      <div class="bg-very-dark-cyan pb-20 px-12 -mt-1">
-        <h2 class="text-2xl font-semibold mb-4 font-poppins uppercase">
-          Newsletter
-        </h2>
-        <p class="mb-6">
-          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-          send you spam or pass on your email address
-        </p>
-        <div class="flex flex-col gap-4 items-end">
-          <input class="w-full p-3 rounded-lg" type="email">
-          <button class="bg-pink rounded-lg text-white px-12 py-3 font-semibold w-max">
-            Subscribe
-          </button>
-        </div>
+          <div class="flex items-center gap-4">
+            <figure
+              class="flex h-8 w-8 items-center justify-end rounded-sm bg-white p-1"
+            >
+              <i
+                class="fa-brands fa-facebook-f text-2xl text-very-dark-cyan"
+              ></i>
+            </figure>
+            <figure class="flex h-8 w-8 items-center justify-center rounded-sm">
+              <i class="fa-brands fa-instagram text-3xl text-white"></i>
+            </figure>
+            <figure
+              class="flex h-8 w-8 items-center justify-center rounded-sm bg-white"
+            >
+              <i class="fa-brands fa-twitter text-xl text-very-dark-cyan"></i>
+            </figure>
+          </div>
+        </section>
       </div>
-    </section>
-  
-    <section class="px-12">
-      <figure class="mb-4">
-        <span class="text-4xl icon-logo"><span class="path1"></span><span class="path2"></span></span>
-      </figure>
-  
-      <p class="mb-12">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-        vestibulum a, ultrices quis sem.
+
+      <p class="attribution -mt-1 bg-very-dark-cyan">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Vince Cedie Pino</a>.
       </p>
-  
-      <div class="flex flex-col gap-4 mb-12">
-        <div class="flex gap-4 items-center">
-          <img src="images/icon-phone.svg" alt="">
-          <p>
-            example@huddle.com
-          </p>
-        </div>
-        <div class="flex gap-4 items-center">
-          <img src="images/icon-email.svg" alt="">
-          <p>
-            Phone: +1-543-123-4567
-          </p>
-        </div>
-      </div>
-  
-      <div class="flex gap-4 items-center">
-        <figure class="w-8 h-8 p-1 rounded-sm flex justify-end items-center bg-white">
-          <i class="fa-brands text-2xl fa-facebook-f text-very-dark-cyan"></i>
-        </figure>
-        <figure class="w-8 h-8 rounded-sm flex justify-center items-center">
-          <i class="fa-brands text-3xl fa-instagram text-white"></i>
-        </figure>
-        <figure class="w-8 h-8 rounded-sm flex justify-center items-center bg-white">
-          <i class="fa-brands text-xl fa-twitter text-very-dark-cyan"></i>
-        </figure>
-      </div>
-    </section>
-    </div>
-   
-    <p class="attribution bg-very-dark-cyan -mt-1">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Vince Cedie Pino</a>.
-    </p>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
